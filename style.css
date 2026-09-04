@@ -1,8 +1,70 @@
-h1 {
-    font-size: 50px;
-    color: rgb(228, 18, 53);
+h/* Estilo geral - fundo com degrade estilo Matuê */
+body {
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a0033 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
 }
 
-body {
-   background-color: blueviolet; 
+/* Título principal - DOURADO estilo rapper! */
+h1 {
+    font-size: 60px;
+    color: #ffd700;
+    text-align: center;
+    text-shadow: 0 0 30px rgba(255, 215, 0, 0.6);
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+/* Subtítulos - ROXO, a cor do trap! */
+h2 {
+    color: #9b59b6;
+    font-size: 35px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 3px solid #ffd700;
+    padding-bottom: 10px;
+}
+
+/* Vídeos estilosos */
+iframe {
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(155, 89, 182, 0.4);
+    border: 2px solid #9b59b6;
+}
+
+/* Rodapé com seu nome */
+footer {
+    margin-top: 60px;
+    padding: 30px;
+    text-align: center;
+    color: #ffd700;
+    border-top: 2px solid #9b59b6;
+    font-size: 18px;
+}
+
+/* DEIXANDO PERFEITO NO CELULAR */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+    
+    h2 {
+        font-size: 28px;
+    }
+    
+    iframe {
+        max-width: 100%;
+        height: 250px;
+    }
+    
+    footer {
+        font-size: 14px;
+        padding: 20px;
+    }
 }
